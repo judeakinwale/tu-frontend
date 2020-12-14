@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\backup from github\\turn-up-master"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "turnup frontend"
+	}
+}
