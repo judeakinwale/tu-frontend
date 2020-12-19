@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="img/tu Logo 2.png">
   <title>TURN UP</title>
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="fonts/icomoon/style.css">
@@ -15,17 +14,7 @@
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 </head>
-
-<style>
-  .login-bg {
-    background-image: url(img/new/img\ 9-bg.png);
-    height: 100vh;
-    position: relative;
-    background-size: cover;
-  }
-</style>
-
-<body class="login-bg">
+<body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <a class="navbar-brand" href="#"><img src="img/new/logo.png" height="36px" alt=""></a>
@@ -41,78 +30,31 @@
           <li class="nav-item">
             <a class="nav-link mx-3" href="events.html">Events</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link mx-3 text-purple" href="FAQ.html">FAQ <span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link mx-3 text-purple" href="FAQ.html">FAQ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-3" href="login.html">Sign In</a>
+            <a class="nav-link mx-3" href="create event.html">Create Event</a>
           </li>
           <li class="nav-item bg-purple rounded">
-            <a class="nav-link text-white font-weight-bold mx-3" href="register.html">Register</a>
+            <a class="nav-link text-white font-weight-bold mx-3" href="account.html">My Account</a>
           </li>
         </ul>
       </div>
-    </nav>
+    </nav>  
   </header>
 
   <main>
-    <div class="container-fluid my-5 pt-2">
-      <!-- <h4 class="text-purple my-5 text-center font-weight-bold">Frequently Asked Questions</h4> -->
-
-      <!-- Payment -->
-      <!-- <div class="rowpayment">
-        <div class="col-md-4 mx-auto text-center bg-white rounded-sm my-5 border">
-          <h4 class="font-weight-bold my-5">Login</h4>
-          <form action="/" class="px-md-5">
-            <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div>
-            <div class="form-group">
-              <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Remember me</label>
-            </div>
-            <button type="submit" class="btn btn-purple w-50 mt-3 ">Sign In</button>
-          </form>
-          <p class="mt-5 mb-2"><small>Don't have an account? <a class="" href="register.html">Register</a></small></p>
-          <p class="mb-5"><a class="text-muted" href="forgot password.html"><small>Forgot password</small></a></p>
-        </div>
-      </div> -->
-
-      <div class="row payment">
-        <div class="col-md-4 mx-auto text-center bg-white rounded-sm my-5 border">
-          <h4 class="font-weight-bold my-5">Register</h4>
-          <form action="/" class="px-md-5">
-            <div class="form-group">
-              <label for="username">Name</label>
-              <input type="text" class="form-control" id="username">              
-            </div>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div>
-            <div class="form-group">
-              <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" aria-describedby="passwordlHelp">
-              <small id="passwordHelp" class="form-text text-muted">Password must have at least 8 characters.</small>
-            </div>
-            <!-- <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Remember me</label>
-            </div> -->
-            <button type="submit" class="btn btn-purple w-50 mt-5 ">Register</button>
-          </form>
-          <p class="mt-5 mb-2"><small>Don't have an account? <a class="" href="login.html">Sign In</a></small></p>
-          <p class="mb-5"><a class="text-muted" href="forgot password.html"><small>Forgot password</small></a></p>
+    <div class="container my-5">
+      <h4 class="text-purple mb-5 text-center font-weight-bold">Create Event</h4>
+      <div class="form">
+        <div class="form-row">
+          <div class="col-md-8">
+            <img src="img/new/img 2.jpeg" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-4"> form with event details</div>
         </div>
       </div>
-
     </div>
   </main>
 
@@ -126,8 +68,7 @@
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label class="col-form-label-sm" for="inputEmail4">First Name</label>
-                <input type="text" class="form-control form-control-sm" id="contact_first_name"
-                  name="contact_first_name">
+                <input type="text" class="form-control form-control-sm" id="contact_first_name" name="contact_first_name">
               </div>
               <div class="form-group col-md-6">
                 <label class="col-form-label-sm" for="inputPassword4">Last Name</label>
@@ -195,12 +136,12 @@
     </div>
   </footer>
 </body>
-<!-- JS -->
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <!-- JS -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
-
+  
 </html>
